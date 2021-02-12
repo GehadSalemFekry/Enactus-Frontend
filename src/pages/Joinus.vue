@@ -22,7 +22,7 @@
                 We are looking for enthusiastic, passionate and driven
                 individuals to join our team.
               </div>
-              <div class="join-deadline">Applications close at '1' Octaber</div>
+              <div class="join-deadline">Applications is now closed</div>
               <hr />
               <div class="join-btn">
                 <a href="#sectors">Apply Now</a>
@@ -62,7 +62,7 @@
                           individuals to join our team.
                         </div>
                         <div class="join-deadline">
-                          Applications close at '1' Octaber
+                          Applications is now closed
                         </div>
                         <hr />
                         <div class="join-btn">
@@ -163,7 +163,7 @@
                           individuals to join our team.
                         </div>
                         <div class="join-deadline">
-                          Applications close at '1' Octaber
+                          Applications is now closed
                         </div>
                         <hr />
                         <div class="join-btn">
@@ -212,7 +212,7 @@
                     <div class="col-sm-6">
                       <div class="first-question">
                         <div class="question-title">
-                          Sub criteria for marketing member :
+                          Sub criteria for PR member :
                         </div>
                         <ul class="question-details">
                           <li>Communication skills.</li>
@@ -262,7 +262,7 @@
                           individuals to join our team.
                         </div>
                         <div class="join-deadline">
-                          Applications close at '1' Octaber
+                          Applications is now closed
                         </div>
                         <hr />
                         <div class="join-btn">
@@ -301,7 +301,7 @@
                     <div class="col-sm-6">
                       <div class="first-question">
                         <div class="question-title">
-                          Sub criteria for marketing member :
+                          Sub criteria for Project Management member :
                         </div>
                         <ul class="question-details">
                           <li>Problem Solver.</li>
@@ -355,7 +355,7 @@
                           individuals to join our team.
                         </div>
                         <div class="join-deadline">
-                          Applications close at '1' Octaber
+                          Applications is now closed
                         </div>
                         <hr />
                         <div class="join-btn">
@@ -394,7 +394,7 @@
                     <div class="col-sm-6">
                       <div class="first-question">
                         <div class="question-title">
-                          Sub criteria for marketing member :
+                          Sub criteria for Presentation member :
                         </div>
                         <ul class="question-details">
                           <li>A Good potential of a presenter.</li>
@@ -449,7 +449,7 @@
                           individuals to join our team.
                         </div>
                         <div class="join-deadline">
-                          Applications close at '1' Octaber
+                          Applications is now closed
                         </div>
                         <hr />
                         <div class="join-btn">
@@ -520,7 +520,7 @@
                     <div class="col-sm-6">
                       <div class="first-question">
                         <div class="question-title">
-                          Sub criteria for marketing member :
+                          Sub criteria for Multimedia member :
                         </div>
                         <ul class="question-details">
                           <li>Willing to learn.</li>
