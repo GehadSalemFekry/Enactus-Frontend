@@ -353,8 +353,6 @@
                     </div>
                   </template>
 
-                  
-
                 </b-tab>
 
               </b-tabs>
