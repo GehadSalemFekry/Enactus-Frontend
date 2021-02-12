@@ -2,7 +2,7 @@
   <div class="container">
     <div class="logo-div">
         <router-link :to="{ name: 'home'}" class="side-link">
-          <img src=""..\assets\img\fixed-logo.png" />
+          <img src="@\assets\img\fixed-logo.png" />
         </router-link>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template lang="en">
   <div>
     <a class="up-img" href='#top'>
-      <img src="..\assets\img\up.png" alt="" />
+      <img src="@\assets\img\up.png" alt="" />
     </a>
   </div>
 </template>

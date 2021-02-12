@@ -1,7 +1,7 @@
 <template lang="en">
     <div class="img-div">
-        <img class='circle' src="..\assets\img\circles.png" />
-        <img class='phone-circle' src="..\assets\img\circles-phone.png" />
+        <img class='circle' src="@\assets\img\circles.png" />
+        <img class='phone-circle' src="@\assets\img\circles-phone.png" />
     </div>
 </template>
 
