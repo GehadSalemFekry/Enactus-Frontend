@@ -6,7 +6,7 @@
           <div class="sidebar-top">
           <div class="logo">
             <router-link :to="{ name: 'home'}" class="side-link">
-              <img src='..\assets\img\enactus-logo.png' />
+              <img src="..\assets\img\enactus-logo.png" />
             </router-link>
           </div>
           <div class="sign-btns">
