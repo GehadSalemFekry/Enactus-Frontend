@@ -23,7 +23,7 @@
             <b-card no-body>
               <b-tabs pills card>
 
-                <b-tab active>
+                <b-tab>
 
                   <template #title>
                     <div class='sector-card'>
@@ -159,6 +159,23 @@
 
                 </b-tab>
 
+                <b-tab active>
+
+                  <template #title>
+                    <div class='sector-card'>
+                      <!-- <div class='sector-img'>
+                      <img src="../assets/img/team/presentation.png" /> 
+                      </div> -->
+                      <div class='sector-content presentation'>
+                        
+                        <p class="sector-vp">Presentation</p>
+                        <p>Sector</p>
+                      </div>
+                    </div>
+                  </template>
+
+                </b-tab>
+
                 <b-tab>
 
                   <template #title>
@@ -167,8 +184,10 @@
                         <img src="../assets/img/team/project-manger.png" />
                       </div>
                       <div class='sector-content'>
+                        
                         <h5>Omar Emam</h5>
-                        <p>Project Manager</p>
+                        <p class="sector-vp">Project</p>
+                        <p>Manager</p>
                       </div>
                     </div>
                   </template>
@@ -334,24 +353,6 @@
 
                     </div>
                   </div>
-
-                </b-tab>
-
-
-                <b-tab>
-
-                  <template #title>
-                    <div class='sector-card'>
-                      <div class='sector-img'>
-                        <img src="../assets/img/team/presentation.png" />
-                      </div>
-                      <div class='sector-content'>
-                        <h5>Marwa Mustafa</h5>
-                        <p class="sector-vp">Presentation</p>
-                        <p>Team Leader</p>
-                      </div>
-                    </div>
-                  </template>
 
                 </b-tab>
 
