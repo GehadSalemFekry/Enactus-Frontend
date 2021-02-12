@@ -1,0 +1,217 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+#sidebar {
+    width: 260px;
+
+    .b-sidebar-footer {
+        background-color: $GreyBackgroundColor;
+        font-family: "Poppins", sans-serif;
+        color: $mainTextColorBtn;
+        margin-top: 0;
+        box-shadow: none;
+    }
+
+    .b-sidebar-body {
+        background-color: $GreyBackgroundColor;
+    }
+}
+
+#sidebar {
+    box-shadow: 3px 3px 3px #00000010;
+
+    .sidebar-top {
+        height: 32%;
+        background-color: $WhiteBackgroundColor;
+
+        .logo {
+            display: block;
+            margin: 0px auto 10px auto;
+            width: 90%;
+            padding: 15px;
+            height: 65%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .sign-btns {
+            height: 30%;
+
+            .btn-signup,
+            .btn-signin {
+                text-align: center;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: $mainColor;
+                border: 2px solid $mainColor;
+                border-radius: 10px;
+                padding: 5px;
+                margin: 10px;
+                font-weight: 500;
+            }
+
+            .btn-signin {
+                margin-left: 15px;
+                width: 40%;
+                float: left;
+                color: $mainColor;
+
+                &:hover {
+                    color: #fff;
+                    background-color: $mainColor;
+                }
+            }
+
+            .btn-signup {
+                margin-right: 15px;
+                width: 40%;
+                float: right;
+                color: #fff;
+                background-color: $mainColor;
+
+                &:hover {
+                    color: $mainColor;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+
+    .sidebar-content {
+        padding: 15px 50px;
+        height: 50%;
+
+        .side-link {
+            display: block;
+            text-align: left;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $sidebarTextColor;
+            margin: 17px 0px;
+            font-weight: 500;
+            &:hover {
+                color: $sidebarActiveColor;
+            }
+        }
+
+        .active {
+            color: $sidebarActiveColor;
+        }
+    }
+
+    .sidebar-bottom {
+        color: $mainColor;
+        height: 15%;
+        font-weight: 900;
+        text-align: center;
+
+        .social-heading {
+            text-transform: uppercase;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+            a {
+                margin: 0px 10px;
+            }
+            i {
+                font-size: 25px;
+                border: 2px solid $mainColor;
+                border-radius: $mainBorderRaduis;
+                color: $mainColor;
+                width: 40px;
+                height: 40px;
+                padding: 5px 0px;
+            }
+            :hover {
+                background-color: $mainColor;
+                color: #fff;
+                transform: rotate(1turn);
+            }
+        }
+    }
+}
+
+.sidebar-btn {
+    z-index: 1;
+    background-color: $mainColor;
+    padding: 28px 22px;
+    border-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    position: fixed;
+    left: 260px;
+    bottom: 55%;
+    box-shadow: 3px 3px 3px #00000015;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    transition: all 0.3s ease-in-out;
+    &:hover,
+    &:focus {
+        background-color: $mainColor !important;
+        box-shadow: 3px 3px 3px #00000015 !important;
+    }
+}
+
+.collapsed {
+    background-image: url(../img/arrow-r.png);
+    left: -2px;
+}
+.not-collapsed {
+    background-image: url(../img/arrow-l.png);
+}
+
+@media (max-width: 575.98px) {
+    #sidebar .sidebar-top .logo {
+        margin: 0px auto;
+        width: 90%;
+        height: 70%;
+    }
+    .sidebar-btn {
+        padding: 20px 15px;
+    }
+    .collapsed,
+    .not-collapsed {
+        background-size: 10px;
+    }
+    #sidebar .sidebar-content .side-link {
+        margin: 40px auto;
+    }
+    #sidebar .sidebar-top {
+        height: 27%;
+    }
+}
+
+@media (max-width: 400px) {
+    #sidebar .sidebar-top .logo {
+        margin: 0px auto 20px auto;
+        width: 75%;
+        height: 60%;
+    }
+    .sign-btns a {
+        font-size: 13px;
+    }
+    #sidebar .sidebar-content .side-link {
+        margin: 20px auto;
+    }
+    #sidebar .sidebar-top {
+        height: 34%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}

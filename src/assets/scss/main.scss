@@ -1,0 +1,41 @@
+// Variables
+@import "md/variables";
+
+//Font Poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// Core CSS
+@import "md/sidebar";
+@import "md/forms";
+@import "md/projects";
+@import "md/joinus";
+@import "md/products";
+@import "md/home";
+@import "md/gallery";
+@import "md/teams";
+@import "md/article";
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: $mainTextColor;
+  background-color: $mainBackgroundColor;
+  cursor: default;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  transition: all 0.3s ease-in-out;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #a7a7a7;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $mainColor;
+}

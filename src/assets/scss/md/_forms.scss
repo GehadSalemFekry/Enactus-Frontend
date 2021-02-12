@@ -1,0 +1,102 @@
+.form {
+    background-color: $mainBackgroundColor;
+    border-radius: 20px;
+    padding: 3% 7%;
+    margin: 15%;
+    box-shadow: $mainColor 20px 0px 0px, rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .title {
+        color: $mainColor;
+        text-align: center;
+    }
+
+    .form-link {
+        color: $mainColor;
+    }
+
+    .form-end {
+        text-align: center;
+    }
+
+    .form-terms {
+        margin-left: 10px;
+    }
+
+    .form-forget {
+        text-align: end;
+    }
+
+    .checkbox {
+        border-radius: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+        //Aligning the checkbox perfectly with its label
+        vertical-align: middle;
+        position: relative;
+        bottom: 1px;
+    }
+
+    .form-element,
+    .modal-body {
+        margin: 15px 0;
+        display: block;
+
+        .input {
+            width: 100%;
+            border-radius: 5px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            padding: 7px 15px;
+            outline: none;
+        }
+
+        .submit-button {
+            background-color: $mainColor;
+            border: 1px solid $mainColor;
+            color: #fff;
+            font-weight: 600;
+            outline: none;
+            :hover {
+                color: $mainColor;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+.modal-body {
+    .input {
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        padding: 7px 15px;
+    }
+
+    .submit-button {
+        background-color: $mainColor;
+        color: #fff;
+        font-weight: 600;
+    }
+}
+.modal-footer {
+    .btn-primary {
+        background-color: $mainColor !important;
+        border: $mainColor 1px solid;
+    }
+}
+@media (max-width: 575.98px) {
+    .form {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
