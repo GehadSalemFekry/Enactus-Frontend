@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="heading">Join Enactus Alexandria</h1>
+            <h1 class="heading">{{ $t('join.join-title')}}</h1>
             <hr />
           </div>
 
@@ -17,15 +17,12 @@
 
           <div class="col-sm-6">
             <div class="join-details">
-              <div class="join-title">Apply as a Sector Member</div>
-              <div class="join-hiring">
-                We are looking for enthusiastic, passionate and driven
-                individuals to join our team.
-              </div>
-              <div class="join-deadline">Applications is now closed</div>
+              <div class="join-title">{{ $t('join.apply-title')}}</div>
+              <div class="join-hiring">{{ $t('join.hiring')}}</div>
+              <div class="join-deadline">{{ $t('join.apply-date')}}</div>
               <hr />
               <div class="join-btn">
-                <a href="#sectors">Apply Now</a>
+                <a href="#sectors">{{ $t('join.apply-btn')}}</a>
               </div>
             </div>
           </div>
@@ -43,7 +40,12 @@
       <b-card no-body>
         <b-tabs pills card>
           <!--Human Resources Tab-->
-          <b-tab title="Human Resources" active>
+          <b-tab active>
+
+          <template #title>
+            {{ $t('join.hr')}}
+          </template>
+
             <b-card-text>
               <div class="first-section">
                 <div class="container">
@@ -56,23 +58,22 @@
 
                     <div class="col-sm-6">
                       <div class="join-details">
-                        <div class="join-title">Apply as a Human Resources Member</div>
+                        <div class="join-title">{{ $t('join.hr-title')}}</div>
                         <div class="join-hiring">
-                          We are looking for enthusiastic, passionate and driven
-                          individuals to join our team.
+                          {{ $t('join.hr-hiring')}}
                         </div>
                         <div class="join-deadline">
-                          Applications is now closed
+                          {{ $t('join.apply-date')}}
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="https://www.google.com/">Apply Now</a>
+                          <a href="https://www.google.com/">{{ $t('join.apply-btn')}}</a>
                         </div>
                       </div>
                     </div>
 
                     <div class="col-12">
-                      <h5 class="sector-heading">Responsibilities :</h5>
+                      <h5 class="sector-heading">{{ $t('join.responsibilities')}}</h5>
                     </div>
 
                     <div class="col-12">
@@ -80,27 +81,23 @@
                         <!-- <div class="branch-title">HR</div> -->
                         <div class="branch-details">
 
-                          - Prepare evaluation templates for Enactus events &amp; projects &amp; member &amp; Head.<br><br>
+                          - {{ $t('join.hr-responsibilities-1')}}<br><br>
 
-                          - Fill the database of committees.<br><br>
+                          - {{ $t('join.hr-responsibilities-2')}}<br><br>
 
-                          - Cooperate with heads to hire and reward members and 
-                          Apply the system of  punishment and firing members.<br><br>
+                          - {{ $t('join.hr-responsibilities-3')}}<br><br>
 
-                          - Cooperate with heads to specialize a time for workshops every meeting.<br><br>
+                          - {{ $t('join.hr-responsibilities-4')}}<br><br>
 
-                          - Responsible for evaluate and motivate all members in his committee.<br><br>
+                          - {{ $t('join.hr-responsibilities-5')}}<br><br>
 
-                          - Cooperate with committees' heads to make a good atmosphere of working.<br><br>
+                          - {{ $t('join.hr-responsibilities-6')}}<br><br>
 
-                          - Evaluating the skills of different members by attending different 
-                          meetings in order to submit a report of the needed trainings (setting a development plan).<br><br>
+                          - {{ $t('join.hr-responsibilities-7')}}<br><br>
 
-                          - Create profile for each member that includes their basic data, progress, 
-                          any  problems, punishments, rewards etc.<br><br>
+                          - {{ $t('join.hr-responsibilities-8')}}<br><br>
 
-                          - Preparing monthly newsletters "report" and the Flash News "weekly" for the committees.
-                          Responsible for Team building in the committee, Member's performance and  motivation.<br><br>
+                          - {{ $t('join.hr-responsibilities-9')}}<br><br>
                           
                         </div>
                       </div>
@@ -113,26 +110,26 @@
                     <div class="col-sm-6">
                       <div class="first-question">
                         <div class="question-title">
-                          Sub criteria for HR member :
+                          {{ $t('join.hr-sub')}}
                         </div>
                         <ul class="question-details">
-                          <li>Willing to learn.</li>
-                          <li>Know the basics of HR Management.</li>
-                          <li>Know how to use excel, Google drive and Google sheets.</li>
-                          <li>Problem Solving.</li>
-                          <li>Motivation, Communication.</li>
+                          <li>{{ $t('join.hr-sub-1')}}</li>
+                          <li>{{ $t('join.hr-sub-2')}}</li>
+                          <li>{{ $t('join.hr-sub-3')}}</li>
+                          <li>{{ $t('join.hr-sub-4')}}</li>
+                          <li>{{ $t('join.hr-sub-5')}}</li>
                         </ul>
                       </div>
                     </div>
 
                     <div class="col-sm-6">
                       <div class="first-question">
-                        <div class="question-title">What would you learn :</div>
+                        <div class="question-title">{{ $t('join.hr-learn')}}</div>
                         <ul class="question-details">
-                          <li>Human resources management.</li>
-                          <li>How to form a personality.</li>
-                          <li>How you can be a real leader</li>
-                          <li>How to handle hard situations</li>
+                          <li>{{ $t('join.hr-learn-1')}}</li>
+                          <li>{{ $t('join.hr-learn-2')}}</li>
+                          <li>{{ $t('join.hr-learn-3')}}</li>
+                          <li>{{ $t('join.hr-learn-4')}}</li>
                         </ul>
                       </div>
                     </div>
@@ -144,7 +141,12 @@
           <!--*--Human Resources Tab--*-->
 
           <!--Public Relation Tab-->
-          <b-tab title="Public Relation">
+          <b-tab>
+
+          <template #title>
+            {{ $t('join.public')}}
+          </template>
+
             <b-card-text>
               <div class="first-section">
                 <div class="container">
@@ -157,23 +159,22 @@
 
                     <div class="col-sm-6">
                       <div class="join-details">
-                        <div class="join-title">Apply as a Public Relation Member</div>
+                        <div class="join-title">{{ $t('join.public-title')}}</div>
                         <div class="join-hiring">
-                          We are looking for enthusiastic, passionate and driven
-                          individuals to join our team.
+                          {{ $t('join.public-hiring')}}
                         </div>
                         <div class="join-deadline">
-                          Applications is now closed
+                          {{ $t('join.apply-date')}}
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="https://www.google.com/">Apply Now</a>
+                          <a href="https://www.google.com/">{{ $t('join.apply-btn')}}</a>
                         </div>
                       </div>
                     </div>
 
                     <div class="col-12">
-                      <h5 class="sector-heading">Responsibilities :</h5>
+                      <h5 class="sector-heading">{{ $t('join.responsibilities')}}</h5>
                     </div>
 
                     <div class="col-12">
@@ -181,25 +182,21 @@
                         <!-- <div class="branch-title">HR</div> -->
                         <div class="branch-details">
 
-                          - Facilitating and Create relations between Enactus and other people outside (VIPs,  NGO's...etc.).<br><br>
+                          - {{ $t('join.public-responsibilities-1')}}<br><br>
 
-                          -  Providing media coverage for all the events and project (TV &amp; magazines).<br><br>
+                          - {{ $t('join.public-responsibilities-2')}}<br><br>
 
-                          - Providing key speakers if needed for all events.<br><br>
+                          - {{ $t('join.public-responsibilities-3')}}<br><br>
 
-                          - Handling booths outside to demonstrate the events.<br><br>
+                          - {{ $t('join.public-responsibilities-4')}}<br><br>
 
-                          - Providing professional trainers upon request of HR committee.<br><br>
+                          - {{ $t('join.public-responsibilities-5')}}<br><br>
 
-                          - Managing all relations with University administration,
-                            Reception students (including  approvals for sessions, 
-                            booths, info desks, campaigns, meeting, event, English club  etc.)<br><br>
+                          - {{ $t('join.public-responsibilities-6')}}<br><br>
 
-                          - Designing and building booths and info desks in universities 
-                            and dealing with public.  Facilitating the logistical work related to 
-                            the events and projects (materials, giveaways, t-shirts, flyers, banners... etc.) <br><br>
-                          
-                          - Organizing all events from A to Z   (training, outing... etc.).<br><br>
+                          - {{ $t('join.public-responsibilities-7')}}<br><br>
+
+                          - {{ $t('join.public-responsibilities-8')}}<br><br>
 
                         </div>
                       </div>
@@ -211,27 +208,25 @@
 
                     <div class="col-sm-6">
                       <div class="first-question">
-                        <div class="question-title">
-                          Sub criteria for PR member :
-                        </div>
+                        <div class="question-title">{{ $t('join.public-sub')}}</div>
                         <ul class="question-details">
-                          <li>Communication skills.</li>
-                          <li>Negotiation &amp; Persuasion skills.</li>
-                          <li>Presentation skills.</li>
-                          <li>Good at public speaking.</li>
-                          <li>Flexibility, Creativity.</li>
+                          <li>{{ $t('join.public-sub-1')}}</li>
+                          <li>{{ $t('join.public-sub-2')}}</li>
+                          <li>{{ $t('join.public-sub-3')}}</li>
+                          <li>{{ $t('join.public-sub-4')}}</li>
+                          <li>{{ $t('join.public-sub-5')}}</li>
                         </ul>
                       </div>
                     </div>
 
                     <div class="col-sm-6">
                       <div class="first-question">
-                        <div class="question-title">What would you learn :</div>
+                        <div class="question-title">{{ $t('join.public-learn')}}</div>
                         <ul class="question-details">
-                          <li>How to be a real leader.</li>
-                          <li>How to deal with difficult characters.</li>
-                          <li>How to be excellent at public speaking.</li>
-                          <li>Advanced Soft skills.</li>
+                          <li>{{ $t('join.public-learn-1')}}</li>
+                          <li>{{ $t('join.public-learn-2')}}</li>
+                          <li>{{ $t('join.public-learn-3')}}</li>
+                          <li>{{ $t('join.public-learn-4')}}</li>
                         </ul>
                       </div>
                     </div>
@@ -243,7 +238,12 @@
           <!--*--Public Relation Tab--*-->
 
           <!--Project Management Tab-->
-          <b-tab title="Project Management">
+          <b-tab>
+
+          <template #title>
+            {{ $t('join.project')}}
+          </template>
+
             <b-card-text>
               <div class="first-section">
                 <div class="container">
@@ -256,23 +256,22 @@
 
                     <div class="col-sm-6">
                       <div class="join-details">
-                        <div class="join-title">Apply as a Project Management Member</div>
+                        <div class="join-title">{{ $t('join.project-title')}}</div>
                         <div class="join-hiring">
-                          We are looking for enthusiastic, passionate and driven
-                          individuals to join our team.
+                          {{ $t('join.project-hiring')}}
                         </div>
                         <div class="join-deadline">
-                          Applications is now closed
+                          {{ $t('join.apply-date')}}
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="https://www.google.com/">Apply Now</a>
+                          <a href="https://www.google.com/">{{ $t('join.apply-btn')}}</a>
                         </div>
                       </div>
                     </div>
 
                     <div class="col-12">
-                      <h5 class="sector-heading">Responsibilities :</h5>
+                      <h5 class="sector-heading">{{ $t('join.responsibilities')}}</h5>
                     </div>
 
                     <div class="col-12">
@@ -280,15 +279,11 @@
                         <!-- <div class="branch-title">HR</div> -->
                         <div class="branch-details">
 
-                          - The core of our entity.<br><br>
+                          - {{ $t('join.project-responsibilities-1')}}<br><br>
 
-                          - We assess the needs in our society and analyze possible 
-                            ideas to solve it through entrepreneurial leadership,
-                            in order to bring new Enactus projects to life.<br><br>
+                          - {{ $t('join.project-responsibilities-2')}}<br><br>
 
-                          -  We are also responsible for executing the project itself 
-                              to enhance our impact, empower the people in our community 
-                              and keeping up with stakeholders.<br><br>
+                          - {{ $t('join.project-responsibilities-3')}}<br><br>
 
                         </div>
                       </div>
@@ -301,30 +296,30 @@
                     <div class="col-sm-6">
                       <div class="first-question">
                         <div class="question-title">
-                          Sub criteria for Project Management member :
+                          {{ $t('join.project-sub')}}
                         </div>
                         <ul class="question-details">
-                          <li>Problem Solver.</li>
-                          <li>Creativity</li>
-                          <li>Team Work</li>
-                          <li>Work under pressure</li>
-                          <li>Communication skills.</li>
-                          <li>Leadership </li>
-                          <li>Well-Organized</li>
+                          <li>{{ $t('join.project-sub-1')}}</li>
+                          <li>{{ $t('join.project-sub-2')}}</li>
+                          <li>{{ $t('join.project-sub-3')}}</li>
+                          <li>{{ $t('join.project-sub-4')}}</li>
+                          <li>{{ $t('join.project-sub-5')}}</li>
+                          <li>{{ $t('join.project-sub-6')}}</li>
+                          <li>{{ $t('join.project-sub-7')}}</li>
                         </ul>
                       </div>
                     </div>
 
                     <div class="col-sm-6">
                       <div class="first-question">
-                        <div class="question-title">What would you learn :</div>
+                        <div class="question-title">{{ $t('join.project-learn')}}</div>
                         <ul class="question-details">
-                          <li>Business Knowledge.</li>
-                          <li>Project management Skills.</li>
-                          <li>Advanced Leadership.</li>
-                          <li>How to run business project.</li>
-                          <li>Documentation.</li>
-                          <li>Analytics.</li>
+                          <li>{{ $t('join.project-learn-1')}}</li>
+                          <li>{{ $t('join.project-learn-2')}}</li>
+                          <li>{{ $t('join.project-learn-3')}}</li>
+                          <li>{{ $t('join.project-learn-4')}}</li>
+                          <li>{{ $t('join.project-learn-5')}}</li>
+                          <li>{{ $t('join.project-learn-6')}}</li>
                         </ul>
                       </div>
                     </div>
@@ -336,7 +331,12 @@
           <!--*--Project Management Tab--*-->
 
           <!--Presentation Tab-->
-          <b-tab title="Presentation">
+          <b-tab>
+
+          <template #title>
+            {{ $t('join.presentation')}}
+          </template>
+
             <b-card-text>
               <div class="first-section">
                 <div class="container">
@@ -349,23 +349,22 @@
 
                     <div class="col-sm-6">
                       <div class="join-details">
-                        <div class="join-title">Apply as a Presentation Member</div>
+                        <div class="join-title">{{ $t('join.presentation-title')}}</div>
                         <div class="join-hiring">
-                          We are looking for enthusiastic, passionate and driven
-                          individuals to join our team.
+                          {{ $t('join.presentation-hiring')}}
                         </div>
                         <div class="join-deadline">
-                          Applications is now closed
+                          {{ $t('join.apply-date')}}
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="https://www.google.com/">Apply Now</a>
+                          <a href="https://www.google.com/">{{ $t('join.apply-btn')}}</a>
                         </div>
                       </div>
                     </div>
 
                     <div class="col-12">
-                      <h5 class="sector-heading">Responsibilities :</h5>
+                      <h5 class="sector-heading">{{ $t('join.responsibilities')}}</h5>
                     </div>
 
                     <div class="col-12">
@@ -373,15 +372,15 @@
                         <!-- <div class="branch-title">HR</div> -->
                         <div class="branch-details">
 
-                          - Writing the scripts of the special &amp; final competitions.<br><br>
+                          - {{ $t('join.presentation-responsibilities-1')}}<br><br>
 
-                          - Facilitating the English clubs.<br><br>
+                          - {{ $t('join.presentation-responsibilities-2')}}<br><br>
 
-                          -  Presenting or hosting any event throughout the season.<br><br>
-                          
-                          -  Participating in the acting events.<br><br>
+                          - {{ $t('join.presentation-responsibilities-3')}}<br><br>
 
-                          -  Presenting the project in the national &amp; international competitions.<br><br>
+                          - {{ $t('join.presentation-responsibilities-4')}}<br><br>
+
+                          - {{ $t('join.presentation-responsibilities-5')}}<br><br>
 
                         </div>
                       </div>
@@ -394,31 +393,29 @@
                     <div class="col-sm-6">
                       <div class="first-question">
                         <div class="question-title">
-                          Sub criteria for Presentation member :
+                          {{ $t('join.presentation-sub')}}
                         </div>
                         <ul class="question-details">
-                          <li>A Good potential of a presenter.</li>
-                          <li>A good level Spoken &amp; written English.</li>
-                          <li>Eager to learn.</li>
-                          <li>Team player.</li>
-                          <li>Good Communicator</li>
-                          <li>Critical thinker</li>
-                          <li>Creative</li>
+                          <li>{{ $t('join.presentation-sub-1')}}</li>
+                          <li>{{ $t('join.presentation-sub-2')}}</li>
+                          <li>{{ $t('join.presentation-sub-3')}}</li>
+                          <li>{{ $t('join.presentation-sub-4')}}</li>
+                          <li>{{ $t('join.presentation-sub-5')}}</li>
+                          <li>{{ $t('join.presentation-sub-6')}}</li>
                         </ul>
                       </div>
                     </div>
 
                     <div class="col-sm-6">
                       <div class="first-question">
-                        <div class="question-title">What would you learn :</div>
+                        <div class="question-title">{{ $t('join.presentation-learn')}}</div>
                         <ul class="question-details">
-                          <li>Punctuation &amp; formal writing</li>
-                          <li>Advanced presentation skills</li>
-                          <li>Improvising in English</li>
-                          <li>Advanced soft skills</li>
-                          <li>Script writing</li>
-                          <li>Story telling</li>
-                          <li>Acting</li>
+                          <li>{{ $t('join.presentation-learn-1')}}</li>
+                          <li>{{ $t('join.presentation-learn-2')}}</li>
+                          <li>{{ $t('join.presentation-learn-3')}}</li>
+                          <li>{{ $t('join.presentation-learn-4')}}</li>
+                          <li>{{ $t('join.presentation-learn-5')}}</li>
+                          <li>{{ $t('join.presentation-learn-6')}}</li>
                         </ul>
                       </div>
                     </div>
@@ -430,7 +427,12 @@
           <!--*--Presentation Tab--*-->
 
           <!--Multi-Media Tab-->
-          <b-tab title="Multi-Media">
+          <b-tab>
+
+          <template #title>
+            {{ $t('join.media')}}
+          </template>
+
             <b-card-text>
               <div class="first-section">
                 <div class="container">
@@ -443,72 +445,56 @@
 
                     <div class="col-sm-6">
                       <div class="join-details">
-                        <div class="join-title">Apply as a Multi-Media Member</div>
+                        <div class="join-title">{{ $t('join.media-title')}}</div>
                         <div class="join-hiring">
-                          We are looking for enthusiastic, passionate and driven
-                          individuals to join our team.
+                          {{ $t('join.media-hiring')}}
                         </div>
                         <div class="join-deadline">
-                          Applications is now closed
+                          {{ $t('join.apply-date')}}
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="https://www.google.com/">Apply Now</a>
+                          <a href="https://www.google.com/">{{ $t('join.apply-btn')}}</a>
                         </div>
                       </div>
                     </div>
 
                     <div class="col-12">
-                      <h5 class="sector-heading">Responsibilities :</h5>
+                      <h5 class="sector-heading">{{ $t('join.responsibilities')}}</h5>
                     </div>
 
                     <div class="col-sm-6">
                       <div class="first-branch">
-                        <div class="branch-title">Designers</div>
+                        <div class="branch-title">{{ $t('join.media-responsibilities-designers')}}</div>
                         <div class="branch-details">
-                          make designs such like "Flyers, Brochures, Banners
-                          etc" for the project and help social media for their
-                          demands. Marketing Marketing executives are involved
-                          in developing marketing campaigns to promote ideas.
-                          its a varied role that includes planning, advertising.
+                          {{ $t('join.media-responsibilities-designers-details')}}
                         </div>
                       </div>
                       <div class="second-branch">
-                        <div class="branch-title">Photographers</div>
+                        <div class="branch-title">{{ $t('join.media-responsibilities-photographers')}}</div>
                         <div class="branch-details">
-                          Use a variety of photographic equipment to make
-                          pictorial records of people, events, and objects for
-                          the project.
+                          {{ $t('join.media-responsibilities-photographers-details')}}
                         </div>
                       </div>
                       <div class="third-branch">
-                        <div class="branch-title">Marketing</div>
+                        <div class="branch-title">{{ $t('join.media-responsibilities-marketing')}}</div>
                         <div class="branch-details">
-                          Marketing executives are involved in developing marketing campaigns to promote ideas.
-                          its a varied role that includes planning, advertising.
+                          {{ $t('join.media-responsibilities-marketing-details')}}.
                         </div>
                       </div>
                     </div>
 
                     <div class="col-sm-6">
                       <div class="first-branch">
-                        <div class="branch-title">Video Editing</div>
+                        <div class="branch-title">{{ $t('join.media-responsibilities-video-editing')}}</div>
                         <div class="branch-details">
-                          Record Video footage and computer graphics and develop
-                          titles and motion graphics using software programs and
-                          dubbing video masters, writing scripts and creating
-                          video records.
+                          {{ $t('join.media-responsibilities-video-editing-details')}}
                         </div>
                       </div>
                       <div class="second-branch">
-                        <div class="branch-title">Social Media</div>
+                        <div class="branch-title">{{ $t('join.media-responsibilities-social-media')}}</div>
                         <div class="branch-details">
-                          build and execute social media strategy through
-                          competitive research, platform determination,
-                          benchmarking, messaging, and audience identification
-                          and generate, edit, publish and share daily content
-                          that build meaning connections and encourages
-                          community members to take action.
+                          {{ $t('join.media-responsibilities-social-media-details')}}
                         </div>
                       </div>
                     </div>
@@ -520,27 +506,27 @@
                     <div class="col-sm-6">
                       <div class="first-question">
                         <div class="question-title">
-                          Sub criteria for Multimedia member :
+                          {{ $t('join.media-sub')}}
                         </div>
                         <ul class="question-details">
-                          <li>Willing to learn.</li>
-                          <li>Communication skills.</li>
-                          <li>Negotiation &amp; Persuasion skills.</li>
-                          <li>Creativity</li>
-                          <li>Experts at social media.</li>
-                          <li>Know the basic of graphic design</li>
+                          <li>{{ $t('join.media-sub-1')}}</li>
+                          <li>{{ $t('join.media-sub-2')}}</li>
+                          <li>{{ $t('join.media-sub-3')}}</li>
+                          <li>{{ $t('join.media-sub-4')}}</li>
+                          <li>{{ $t('join.media-sub-5')}}</li>
+                          <li>{{ $t('join.media-sub-6')}}</li>
                         </ul>
                       </div>
                     </div>
 
                     <div class="col-sm-6">
                       <div class="first-question">
-                        <div class="question-title">What would you learn :</div>
+                        <div class="question-title">{{ $t('join.media-learn')}}</div>
                         <ul class="question-details">
-                          <li>Advanced Graphic Design</li>
-                          <li>Advanced Photographing</li>
-                          <li>Advanced Videography</li>
-                          <li>Marketing</li>
+                          <li>{{ $t('join.media-learn-1')}}</li>
+                          <li>{{ $t('join.media-learn-2')}}</li>
+                          <li>{{ $t('join.media-learn-3')}}</li>
+                          <li>{{ $t('join.media-learn-4')}}</li>
                         </ul>
                       </div>
                     </div>

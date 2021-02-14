@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="heading">Blog</h1>
+                    <h1 class="heading">{{ $t('blog.blog-title')}}</h1>
                     <hr />
                 </div>
             </div>

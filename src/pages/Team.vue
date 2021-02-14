@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="heading">Our Team</h1>
+          <h1 class="heading">{{ $t('team.team-title')}}</h1>
           <hr />
         </div>
 
@@ -13,8 +13,8 @@
               <img src="../assets/img/team/president.jpg" />
             </div>
             <div class='president-content'>
-              <h5>Nourhan</h5>
-              <p>President</p>
+              <h5>{{ $t('team.president-name')}}</h5>
+              <p>{{ $t('team.president')}}</p>
             </div>
           </div>
         </div>
@@ -31,9 +31,9 @@
                         <img src="../assets/img/team/human-resources.png" />
                       </div>
                       <div class='sector-content'>
-                        <h5>Akram Khaled</h5>
-                        <p class="sector-vp">Vice-President</p>
-                        <p>Human Resources</p>
+                        <h5>{{ $t('team.vp-hr-name')}}</h5>
+                        <p class="sector-vp">{{ $t('team.vp')}}</p>
+                        <p>{{ $t('team.hr')}}</p>
                       </div>
                     </div>
                   </template>
@@ -47,9 +47,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Shimaa Gamal</h5>
-                            <p class="sector-vp">R&amp;D</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb1-hr-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.rd')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -60,9 +60,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Eman Elwakil</h5>
-                            <p class="sector-vp">HRM</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb2-hr-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.hrm')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -73,9 +73,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Nadeen Mohamed</h5>
-                            <p class="sector-vp">Shadows</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb3-hr-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.shadows')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -92,9 +92,9 @@
                         <img src="../assets/img/team/multi-media.png" />
                       </div>
                       <div class='sector-content'>
-                        <h5>Aya Elhefny</h5>
-                        <p class="sector-vp">Vice-President</p>
-                        <p>Multi-Media</p>
+                        <h5>{{ $t('team.vp-media-name')}}</h5>
+                        <p class="sector-vp">{{ $t('team.vp')}}</p>
+                        <p>{{ $t('team.media')}}</p>
                       </div>
                     </div>
                   </template>
@@ -108,9 +108,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Samar Saeed</h5>
-                            <p class="sector-vp">Social media</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb1-media-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.social-media')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -121,9 +121,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Martin Khela</h5>
-                            <p class="sector-vp">Photography</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb2-media-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.photography')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -134,9 +134,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Gehad Salem</h5>
-                            <p class="sector-vp">IT</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb3-media-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.it')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -147,9 +147,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Ahmed Gamal</h5>
-                            <p class="sector-vp">Graphic design</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb4-media-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.graphic-design')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -163,13 +163,13 @@
 
                   <template #title>
                     <div class='sector-card'>
-                      <!-- <div class='sector-img'>
+                      <div class='sector-img'>
                       <img src="../assets/img/team/presentation.png" /> 
-                      </div> -->
-                      <div class='sector-content presentation'>
-                        
-                        <p class="sector-vp">Presentation</p>
-                        <p>Sector</p>
+                      </div>
+                      <div class='sector-content'>
+                        <h5>{{ $t('team.vp-present-name')}}</h5>
+                        <p class="sector-vp">{{ $t('team.presentation')}}</p>
+                        <p>{{ $t('team.sector')}}</p>
                       </div>
                     </div>
                   </template>
@@ -185,9 +185,9 @@
                       </div>
                       <div class='sector-content'>
                         
-                        <h5>Omar Emam</h5>
-                        <p class="sector-vp">Project</p>
-                        <p>Manager</p>
+                        <h5>{{ $t('team.vp-project-name')}}</h5>
+                        <p class="sector-vp">{{ $t('team.project')}}</p>
+                        <p>{{ $t('team.manager')}}</p>
                       </div>
                     </div>
                   </template>
@@ -201,9 +201,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Basma Ahmed</h5>
-                            <p class="sector-vp">Business</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb1-project-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.business')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -214,9 +214,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Mariam Khamis</h5>
-                            <p class="sector-vp">Documentation</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb2-project-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.documentation')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -227,9 +227,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Menna Elnashar</h5>
-                            <p class="sector-vp">R&amp;D</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb3-project-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.rd')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -243,9 +243,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Mohamed Gewilly</h5>
-                            <p class="sector-vp">Operation</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb4-project-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.operation')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -256,9 +256,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Mustafa Hussein</h5>
-                            <p class="sector-vp">Operation </p>
-                            <p>Coordinator</p>
+                            <h5>{{ $t('team.mb5-project-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.operation')}} </p>
+                            <p>{{ $t('team.coordinator')}}</p>
                           </div>
                         </div>
                       </div>
@@ -269,9 +269,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Ahmed Abd Elfatah</h5>
-                            <p class="sector-vp">Science</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb6-project-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.science')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -289,9 +289,9 @@
                         <img src="../assets/img/team/public-relation.png" />
                       </div>
                       <div class='sector-content'>
-                        <h5>Ebrahem Abdelfattah</h5>
-                        <p class="sector-vp">Vice-President</p>
-                        <p>Public Relation</p>
+                        <h5>{{ $t('team.vp-public-name')}}</h5>
+                        <p class="sector-vp">{{ $t('team.vp')}}</p>
+                        <p>{{ $t('team.public')}}</p>
                       </div>
                     </div>
                   </template>
@@ -305,9 +305,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Nour Mohamed</h5>
-                            <p class="sector-vp">Fundraising</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb1-public-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.fundraising')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -318,9 +318,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Dina Haddad</h5>
-                            <p class="sector-vp">Sales &amp; Marketing</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb2-public-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.sales-marketing')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -331,9 +331,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Mohamed Essam</h5>
-                            <p class="sector-vp">Logistics &amp; OC</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb3-public-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.logistics-oc')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>
@@ -344,9 +344,9 @@
                             <img src="../assets/img/team/project-manger.png" />
                           </div>
                           <div class='member-content'>
-                            <h5>Mayar Ramadan</h5>
-                            <p class="sector-vp">Media relations</p>
-                            <p>Team Leader</p>
+                            <h5>{{ $t('team.mb4-public-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.media-relations')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
                           </div>
                         </div>
                       </div>

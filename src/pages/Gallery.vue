@@ -3,14 +3,19 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="heading">Gallery</h1>
+          <h1 class="heading">{{ $t('gallery.gallery-title')}}</h1>
           <hr />
         </div>
 
         <div class="col-12">
             <b-card no-body>
               <b-tabs pills card>
-                <b-tab title="All" active>
+                <b-tab active>
+
+                  <template #title>
+                      {{ $t('gallery.all')}}
+                  </template>
+
                   <b-card-text>
                     
                     <b-card-group columns>
@@ -59,7 +64,12 @@
 
                   </b-card-text>
                 </b-tab>
-                <b-tab title="General Assembly">
+                <b-tab>
+
+                  <template #title>
+                      {{ $t('gallery.ga')}}
+                  </template>
+
                   <b-card-text>
                     
                     <b-card-group columns>
@@ -81,7 +91,12 @@
 
                   </b-card-text>
                 </b-tab>
-                <b-tab title="Opening Ceremony">
+                <b-tab>
+
+                  <template #title>
+                      {{ $t('gallery.oc')}}
+                  </template>
+
                   <b-card-text>
                     
                     <b-card-group columns>
@@ -106,7 +121,12 @@
 
                   </b-card-text>
                 </b-tab>
-                <b-tab title="General Orientation Training">
+                <b-tab>
+
+                  <template #title>
+                      {{ $t('gallery.got')}}
+                  </template>
+
                   <b-card-text>
                     
                     <b-card-group columns>

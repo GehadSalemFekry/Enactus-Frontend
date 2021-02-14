@@ -19,7 +19,7 @@
           <router-link :to="{ name: 'home'}" class="side-link">{{ $t('sidebar.home')}}</router-link>
           <router-link :to="{ name: 'team'}" class="side-link">{{ $t('sidebar.team')}}</router-link>
           <router-link :to="{ name: 'gallery'}" class="side-link">{{ $t('sidebar.gallery')}}</router-link>
-          <router-link :to="{ name: 'products'}" class="side-link">{{ $t('sidebar.products')}}</router-link>
+          <router-link :to="{ name: 'products'}" class="side-link">{{ $t('sidebar.projects')}}</router-link>
           <router-link :to="{ name: 'blog'}" class="side-link">{{ $t('sidebar.blog')}}</router-link>
           <router-link :to="{ name: 'joinus'}" class="side-link">{{ $t('sidebar.join')}}</router-link>
           <router-link :to="{ name: 'contactus'}" class="side-link">{{ $t('sidebar.contact')}}</router-link>

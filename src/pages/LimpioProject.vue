@@ -5,7 +5,7 @@
         <div class="row">
 
           <div class="col-12">
-            <h1 class="heading">Limpio Project</h1>
+            <h1 class="heading">{{ $t('products.limpio-project')}}</h1>
             <hr />
           </div>
 
@@ -17,24 +17,21 @@
 
           <div class="col-sm-6">
             <div class="project-details">
-              <div class="project-title">Limpio Box</div>
+              <div class="project-title">{{ $t('products.limpio-title')}}</div>
               <div class="project-definition">
-                Choose from the industry's broadest portfolio of storage solutions to unify, manage, and protect your data across multicloud and AI environments
+                {{ $t('products.limpio-info')}}
               </div>
-              <div class="project-available">Available in stock</div>
+              <div class="project-available">{{ $t('products.available')}}</div>
               <hr class="w-100" />
               <div class="project-btn">
-                <a href="download">Download Catalog</a>
+                <a href="download">{{ $t('products.download')}}</a>
               </div>
             </div>
           </div>
 
           <div class='col-12'>
             <p class="project-main">
-              Limpio smart Gate is a self sanitizing gate which sanitizes passing people and it works by optical sensors. As soon as the person goes through it, sensors turn on the sprayers
-              which spray droplets of the sanitizing liquid and this liquid eliminates the stuck viruses on the person’s body or cloth which decrease the infection through touching ratio which
-              plays a role in continuing the life normally during the pandemic of coronavirus (covid 19-). In the future , it will make the work environment healthier and safer by
-              eliminating the disease ..... Etc.
+              {{ $t('products.limpio-details')}}
             </p>
           </div>
 
