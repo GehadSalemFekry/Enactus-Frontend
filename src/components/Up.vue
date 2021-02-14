@@ -1,6 +1,6 @@
 <template lang="en">
   <div>
-    <a class="up-img" href='#top'>
+    <a class="up-img" href='#'>
       <img src="../assets/img/up.png" alt="" />
     </a>
   </div>
