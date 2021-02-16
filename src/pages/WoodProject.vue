@@ -5,7 +5,7 @@
         <div class="row">
 
           <div class="col-12">
-            <h1 class="heading">Wood Project</h1>
+            <h1 class="heading">{{ $t('products.wood-project')}}</h1>
             <hr />
           </div>
 
@@ -17,33 +17,21 @@
 
           <div class="col-sm-6">
             <div class="project-details">
-              <div class="project-title">Wood Box</div>
+              <div class="project-title">{{ $t('products.wood-title')}}</div>
               <div class="project-definition">
-                Choose from the industry's broadest portfolio of storage solutions to unify, manage, and protect your data across multicloud and AI environments
+                {{ $t('products.wood-info')}}
               </div>
-              <div class="project-available">Available in stock</div>
+              <div class="project-available">{{ $t('products.available')}}</div>
               <hr class="w-100" />
               <div class="project-btn">
-                <a href="download">Download Catalog</a>
+                <a href="download">{{ $t('products.download')}}</a>
               </div>
             </div>
           </div>
 
           <div class='col-12'>
             <p class="project-main">
-              Recently, Egypt witnessed an explosive growth in its population resulting in a 
-              sharp increase in slums allover the country, which prevents people from buying 
-              good quality wood products or force them to abandon these products altogether. 
-              We solved this problem by introducing our project, which uses the used wood as 
-              a base for stylish products that satisfy the safety, practicality and environmental 
-              responsibilities issues, while maintaining a moderate price policy. This project 
-              targets those unemployed individuals living in slums who lack the opportunity to 
-              improve their financial situation through decent jobs, while taking all of this 
-              into consideration, we ENACTUS team of Alexandria University took it onto ourselves 
-              to help those people by training a segment of them from bab_alabed to produce decently 
-              made wood products - accessories, desks decoration, and so on- from the upcycled wood. 
-              This training regime also contains the ways of the market pertaining to marketing, 
-              sales chains, problem analysis.... Etc.
+              {{ $t('products.wood-details')}}
             </p>
           </div>
 

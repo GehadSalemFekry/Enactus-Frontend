@@ -6,20 +6,17 @@
       </div>
      
       <div class="img-text">
-        TODAY'S <span>LEADERS</span> .. <br />
-        TOMORROW'S <span>CHANGERS</span>
+        <span>{{ $t('home.img-text-1')}}</span>{{ $t('home.img-text-2')}}<br />
+        {{ $t('home.img-text-3')}}<span>{{ $t('home.img-text-4')}}</span>
       </div>
     </div>
 
     <div class="container">
       <div class="about">
-        <h1 class="heading">Enactus Alexandria</h1>
+        <h1 class="heading">{{ $t('home.heading')}}</h1>
         <hr />
         <p class="heading-details">
-          Enactus is the world’s largest experiential learning platform
-          dedicated to creating a better world <br />
-          while developing the next generation of entrepreneurial leaders and
-          <br />social innovators.
+          {{ $t('home.heading-details')}}
         </p>
 
         <div class="row">
@@ -30,10 +27,9 @@
                 src="../assets/img/icon1-about.png"
               />
             </div>
-            <h4 class="text-center">Enrepreneurial</h4>
+            <h4 class="text-center">{{ $t('home.heading-icons-title-1')}}</h4>
             <p>
-              Having the perspective to see an opportunity and the talent to
-              create value from that opportunity.
+              {{ $t('home.heading-icons-details-1')}}
             </p>
           </div>
 
@@ -44,10 +40,9 @@
                 src="../assets/img/icon2-about.png"
               />
             </div>
-            <h4 class="text-center">Action</h4>
+            <h4 class="text-center">{{ $t('home.heading-icons-title-2')}}</h4>
             <p>
-              The willingness to do something and the commitment to see it
-              through even when the outcome is not guaranteed.
+              {{ $t('home.heading-icons-details-2')}}
             </p>
           </div>
 
@@ -58,10 +53,9 @@
                 src="../assets/img/icon3-about.png"
               />
             </div>
-            <h4 class="text-center">US</h4>
+            <h4 class="text-center">{{ $t('home.heading-icons-title-3')}}</h4>
             <p>
-              A group of people who see themselves connected in some important
-              way; individuals that are part of a greater whole.
+              {{ $t('home.heading-icons-details-3')}}
             </p>
           </div>
         </div>
@@ -73,9 +67,9 @@
 
 
           <div class="col-md-5 col-sm-12">
-            <h2 class="text-center font-weight-bolder">VISION</h2>
+            <h2 class="text-center font-weight-bolder">{{ $t('home.vision')}}</h2>
             <p class="text-center">
-              To create a better, more sustainable world
+              {{ $t('home.vision-details')}}
             </p>
           </div>
 
@@ -86,10 +80,9 @@
           </div>  
 
           <div class="col-md-5 col-sm-12">
-            <h2 class="text-center font-weight-bolder">MISSION</h2>
+            <h2 class="text-center font-weight-bolder">{{ $t('home.mission')}}</h2>
             <p class="text-center">
-              Engage the next generation of entrepreneurial leaders to use
-              innovation and business principles to improve the world
+              {{ $t('home.mission-details')}}
             </p>
           </div>
         </div>
