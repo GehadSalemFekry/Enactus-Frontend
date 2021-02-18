@@ -1,4 +1,4 @@
-<template lang="en">
+<template>
 
     <div class="project">
       <div class="container">
