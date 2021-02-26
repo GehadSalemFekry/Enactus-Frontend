@@ -2,12 +2,12 @@
   <div class="team" dir="auto">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-md-12">
           <h1 class="heading">{{ $t('team.team-title')}}</h1>
           <hr />
         </div>
 
-        <div class="col-12">
+        <div class="col-md-12">
           <div class='president-card'>
             <div class='president-img'>
               <img src="../assets/img/team/president.jpg" />
@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="col-12">
+        <div class="col-md-12">
             <b-card no-body>
               <b-tabs pills card>
 
@@ -41,7 +41,7 @@
                   <div class="container">
                     <div class="row">
 
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/human-resources/ShimaaGamal.png" />
@@ -54,7 +54,7 @@
                         </div>
                       </div>
 
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/human-resources/EmanElwakil.png" />
@@ -67,7 +67,7 @@
                         </div>
                       </div>
 
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/human-resources/NadeenMohamed.png" />
@@ -102,7 +102,7 @@
                   <div class="container">
                     <div class="row">
 
-                      <div class="col-3">
+                      <div class="col-md-3">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/multi-media/SamarSaeed.png" />
@@ -115,7 +115,7 @@
                         </div>
                       </div>
 
-                      <div class="col-3">
+                      <div class="col-md-3">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/multi-media/MartinNabil.png" />
@@ -128,7 +128,7 @@
                         </div>
                       </div>
 
-                      <div class="col-3">
+                      <div class="col-md-3">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/multi-media/GehadSalem.png" />
@@ -141,7 +141,7 @@
                         </div>
                       </div>
 
-                      <div class="col-3">
+                      <div class="col-md-3">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/multi-media/AhmedGamal.png" />
@@ -177,7 +177,7 @@
                   <div class="container">
                     <div class="row">
 
-                      <div class="col-6">
+                      <div class="col-md-6">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/presentation/HazemEmad.png" />
@@ -190,7 +190,7 @@
                         </div>
                       </div>
 
-                      <div class="col-6">
+                      <div class="col-md-6">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/presentation/SalmaAlaaEldin.png" />
@@ -227,7 +227,7 @@
                   <div class="container">
                     <div class="row">
 
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/project-manger/BasmaAhmed.png" />
@@ -240,7 +240,7 @@
                         </div>
                       </div>
 
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/project-manger/MariamKhamis.png" />
@@ -253,7 +253,7 @@
                         </div>
                       </div>
 
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/project-manger/MennaElnashar.png" />
@@ -269,7 +269,7 @@
 
                     <div class="row">
 
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/project-manger/MohamedGewilly.png" />
@@ -282,7 +282,7 @@
                         </div>
                       </div>
 
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/project-manger/MustafaHussein.png" />
@@ -295,7 +295,7 @@
                         </div>
                       </div>
 
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/project-manger/AhmedAbdElfatah.png" />
@@ -331,7 +331,7 @@
                   <div class="container">
                     <div class="row">
 
-                      <div class="col-3">
+                      <div class="col-md-3">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/public-relation/NourMohamed.png" />
@@ -344,7 +344,7 @@
                         </div>
                       </div>
 
-                      <div class="col-3">
+                      <div class="col-md-3">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/public-relation/DinaHaddad.png" />
@@ -357,7 +357,7 @@
                         </div>
                       </div>
 
-                      <div class="col-3">
+                      <div class="col-md-3">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/public-relation/MohamedEssam.png" />
@@ -370,7 +370,7 @@
                         </div>
                       </div>
 
-                      <div class="col-3">
+                      <div class="col-md-3">
                         <div class='member-card'>
                           <div class='member-img'>
                             <img src="../assets/img/team/public-relation/MayarRamadan.png" />

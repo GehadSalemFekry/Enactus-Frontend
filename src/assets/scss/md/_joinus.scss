@@ -135,6 +135,9 @@ li {
     width: 130px;
     font-size: 10px;
   }
+  .branch-title::before{
+    padding: 0px 14px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

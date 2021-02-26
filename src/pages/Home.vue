@@ -2,7 +2,8 @@
   <div dir="auto">
     <div class="img-home">
       <div>
-        <img src="../assets/img/home.png" />
+        <img class="home-lg" src="../assets/img/home.png" />
+        <img class="home-sm" src="../assets/img/home-phone.png" />
       </div>
 
       <div class="img-text">
