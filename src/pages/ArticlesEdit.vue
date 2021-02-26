@@ -1,5 +1,5 @@
-<template lang="en">
-  <div class="new-article">
+<template>
+  <div class="new-article" dir="auto">
     <div class="container">
       <div class="row">
           <div class="col-12">
@@ -34,12 +34,12 @@
 
 <script>
 import ArticleEdit from "../components/ArticleEdit";
-import ArticleAr from "../components/ArticleAr";
+// import ArticleAr from "../components/ArticleAr";
 
 export default {
   components: {
     ArticleEdit,
-    ArticleAr,
+    // ArticleAr,
   },
   data() {
     return {

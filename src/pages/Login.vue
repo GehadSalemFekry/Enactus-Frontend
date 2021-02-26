@@ -1,5 +1,5 @@
-<template lang="en">
-    <div>
+<template>
+    <div dir="auto">
         <div class="container">
             <div class="form">
             <h1 class="title">{{ $t('forms.login-title')}}</h1>
@@ -40,3 +40,9 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+*{
+  text-align: start;
+}
+</style>

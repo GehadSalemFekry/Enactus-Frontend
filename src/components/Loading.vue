@@ -1,5 +1,5 @@
-<template lang="en">
-    <div class="loading-div">
+<template>
+    <div class="loading-div" dir="auto">
         <div class="loading"></div>
     </div>
 </template>

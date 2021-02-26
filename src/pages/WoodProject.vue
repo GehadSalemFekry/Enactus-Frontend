@@ -1,6 +1,6 @@
 <template>
 
-    <div class="project">
+    <div class="project" dir="auto">
       <div class="container">
         <div class="row">
 
@@ -59,3 +59,9 @@
     </div>
 
 </template>
+
+<style scoped>
+*{
+  text-align: start;
+}
+</style>

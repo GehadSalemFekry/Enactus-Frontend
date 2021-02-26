@@ -1,5 +1,5 @@
-<template lang="en">
-    <div>
+<template>
+    <div dir="auto">
 
       <div class="article">
         <div class="article-title">

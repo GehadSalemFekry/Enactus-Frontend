@@ -96,7 +96,7 @@ li {
   border-radius: 100%;
   border: 3px solid $mainColor;
   padding: 0px 12px;
-  margin-right: 5px;
+  margin: 0px 5px;
 }
 
 .branch-details {
@@ -119,19 +119,19 @@ li {
   color: $mainColor;
   font-weight: bold;
   display: inline-block;
-  width: 2em;
-  margin-left: -1em;
+  width: 20px;
+  margin-left: 0em;
   padding: 5px;
 }
 
 @media (max-width: 575.98px) {
-  .join-img img{
+  .join-img img {
     margin-bottom: 20px;
   }
-  li{
+  li {
     margin: 10px auto;
   }
-  .nav-pills .nav-link{
+  .nav-pills .nav-link {
     width: 130px;
     font-size: 10px;
   }

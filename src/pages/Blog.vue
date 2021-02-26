@@ -1,5 +1,5 @@
-<template lang="en">
-    <div class="blog">
+<template>
+    <div class="blog" dir="auto">
         <div class="container">
             <div class="row">
                 <div class="col-12">

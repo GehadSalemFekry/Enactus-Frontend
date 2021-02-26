@@ -1,5 +1,5 @@
-<template lang="en">
-  <div class="team">
+<template>
+  <div class="team" dir="auto">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -44,7 +44,7 @@
                       <div class="col-4">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/human-resources/ShimaaGamal.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb1-hr-name')}}</h5>
@@ -57,7 +57,7 @@
                       <div class="col-4">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/human-resources/EmanElwakil.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb2-hr-name')}}</h5>
@@ -70,7 +70,7 @@
                       <div class="col-4">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/human-resources/NadeenMohamed.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb3-hr-name')}}</h5>
@@ -105,7 +105,7 @@
                       <div class="col-3">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/multi-media/SamarSaeed.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb1-media-name')}}</h5>
@@ -118,7 +118,7 @@
                       <div class="col-3">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/multi-media/MartinNabil.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb2-media-name')}}</h5>
@@ -131,7 +131,7 @@
                       <div class="col-3">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/multi-media/GehadSalem.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb3-media-name')}}</h5>
@@ -144,7 +144,7 @@
                       <div class="col-3">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/multi-media/AhmedGamal.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb4-media-name')}}</h5>
@@ -174,6 +174,38 @@
                     </div>
                   </template>
 
+                  <div class="container">
+                    <div class="row">
+
+                      <div class="col-6">
+                        <div class='member-card'>
+                          <div class='member-img'>
+                            <img src="../assets/img/team/presentation/HazemEmad.png" />
+                          </div>
+                          <div class='member-content'>
+                            <h5>{{ $t('team.mb1-present-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.presentation')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6">
+                        <div class='member-card'>
+                          <div class='member-img'>
+                            <img src="../assets/img/team/presentation/SalmaAlaaEldin.png" />
+                          </div>
+                          <div class='member-content'>
+                            <h5>{{ $t('team.mb2-present-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.presentation')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
                 </b-tab>
 
                 <b-tab>
@@ -198,7 +230,7 @@
                       <div class="col-4">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/project-manger/BasmaAhmed.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb1-project-name')}}</h5>
@@ -211,7 +243,7 @@
                       <div class="col-4">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/project-manger/MariamKhamis.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb2-project-name')}}</h5>
@@ -224,7 +256,7 @@
                       <div class="col-4">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/project-manger/MennaElnashar.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb3-project-name')}}</h5>
@@ -240,7 +272,7 @@
                       <div class="col-4">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/project-manger/MohamedGewilly.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb4-project-name')}}</h5>
@@ -253,7 +285,7 @@
                       <div class="col-4">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/project-manger/MustafaHussein.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb5-project-name')}}</h5>
@@ -266,7 +298,7 @@
                       <div class="col-4">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/project-manger/AhmedAbdElfatah.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb6-project-name')}}</h5>
@@ -302,7 +334,7 @@
                       <div class="col-3">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/public-relation/NourMohamed.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb1-public-name')}}</h5>
@@ -315,7 +347,7 @@
                       <div class="col-3">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/public-relation/DinaHaddad.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb2-public-name')}}</h5>
@@ -328,7 +360,7 @@
                       <div class="col-3">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/public-relation/MohamedEssam.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb3-public-name')}}</h5>
@@ -341,7 +373,7 @@
                       <div class="col-3">
                         <div class='member-card'>
                           <div class='member-img'>
-                            <img src="../assets/img/team/project-manger.png" />
+                            <img src="../assets/img/team/public-relation/MayarRamadan.png" />
                           </div>
                           <div class='member-content'>
                             <h5>{{ $t('team.mb4-public-name')}}</h5>

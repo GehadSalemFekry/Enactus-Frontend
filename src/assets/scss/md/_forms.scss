@@ -20,7 +20,7 @@
     }
 
     .form-terms {
-        margin-left: 10px;
+        margin:0px 8px;
     }
 
     .form-forget {
@@ -58,6 +58,7 @@
             color: #fff;
             font-weight: 600;
             outline: none;
+            text-align: center;
             :hover {
                 color: $mainColor;
                 background-color: transparent;

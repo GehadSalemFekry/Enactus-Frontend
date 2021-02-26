@@ -1,5 +1,5 @@
-<template lang="en">
-    <div>
+<template>
+    <div dir="auto">
         <div class="container">
             <div class="form">
             <h1 class="title">{{ $t('forms.signup-title')}}</h1>
@@ -58,9 +58,8 @@
     </div>
 </template>
 
-
-<script>
-export default {};
-</script>
-<style lang="en">
+<style scoped>
+*{
+  text-align: start;
+}
 </style>

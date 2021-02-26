@@ -1,5 +1,5 @@
-<template lang="en">
-    <div class="img-div">
+<template>
+    <div class="img-div" dir="auto">
         <img class='circle' src="../assets/img/circles.png" />
         <img class='phone-circle' src="../assets/img/circles-phone.png" />
     </div>

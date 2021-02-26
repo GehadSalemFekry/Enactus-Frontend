@@ -1,5 +1,5 @@
-<template lang="en">
-    <div class="article">
+<template>
+    <div class="article" dir="auto">
         <h3 class="article-title">{{ en_title }}</h3>
         <p class="article-body">{{ en_body }}</p>
     </div>

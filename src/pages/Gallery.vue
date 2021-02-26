@@ -1,5 +1,5 @@
-<template lang="en">
-  <div class="gallery">
+<template>
+  <div class="gallery" dir="auto">
     <div class="container">
       <div class="row">
         <div class="col-12">

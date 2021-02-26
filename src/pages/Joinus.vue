@@ -1,5 +1,5 @@
-<template lang="en">
-  <div>
+<template>
+  <div dir="auto">
     <!--First Section-->
     <div class="first-section">
       <div class="container">
@@ -543,3 +543,9 @@
     <!--*--Main Section--*-->
   </div>
 </template>
+
+<style scoped>
+*{
+  text-align: start;
+}
+</style>

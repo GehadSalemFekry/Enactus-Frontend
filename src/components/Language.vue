@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <b-dropdown text="Lang" class="lang">
-      <b-dropdown-item href="#" @click.prevent="setLocale('en')">English</b-dropdown-item>
-      <b-dropdown-item href="#" @click.prevent="setLocale('ar')">Arabic</b-dropdown-item>
-    </b-dropdown>
+  <div dir="auto" class="lang">
+    <a @click.prevent="setLocale('en')">EN</a> /
+    <a @click.prevent="setLocale('ar')">AR</a>
   </div>
 </template>
 
@@ -27,7 +25,7 @@ export default {
   right: 0px;
   top: 8%;
   background: #fcc200;
-  padding: 5px 10px;
+  padding: 10px;
   font-size: 15px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -36,6 +34,7 @@ export default {
   text-decoration: none;
   box-shadow: 0px 3px 5px #00000020;
   z-index: 99999999;
+  cursor: pointer;
 }
 @media (max-width: 575.98px) {
   .lang {

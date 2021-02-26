@@ -1,5 +1,5 @@
-<template lang="en">
-  <div class="container">
+<template>
+  <div class="container" dir="auto">
     <div class="logo-div">
         <router-link :to="{ name: 'home'}" class="side-link">
           <img src="../assets/img/fixed-logo.png" />

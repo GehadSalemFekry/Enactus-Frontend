@@ -1,5 +1,5 @@
-<template lang="ar">
-    <div class="article">
+<template>
+    <div class="article" dir="auto">
         <h3 class="article-title">{{ ar_title }}</h3>
         <p class="article-body">{{ ar_body }}</p>
     </div>

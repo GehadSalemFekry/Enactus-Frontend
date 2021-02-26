@@ -1,5 +1,5 @@
-<template lang="en">
-    <div class="two-circles-div">
+<template>
+    <div class="two-circles-div" dir="auto">
         <img src='..\assets\img\two-circles.png' />
     </div>
 </template>

@@ -1,5 +1,5 @@
-<template lang="en">
-  <div>
+<template>
+  <div dir="auto">
     <a class="up-img" href='#'>
       <img src="../assets/img/up.png" alt="" />
     </a>

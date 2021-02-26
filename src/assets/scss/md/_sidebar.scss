@@ -5,7 +5,6 @@
 
     .b-sidebar-footer {
         background-color: $GreyBackgroundColor;
-        font-family: "Poppins", sans-serif;
         color: $mainTextColorBtn;
         margin-top: 0;
         box-shadow: none;
@@ -85,7 +84,7 @@
 
         .side-link {
             display: block;
-            text-align: left;
+            text-align: start;
             text-transform: uppercase;
             text-decoration: none;
             color: $sidebarTextColor;
@@ -105,10 +104,11 @@
         color: $mainColor;
         height: 15%;
         font-weight: 900;
-        text-align: center;
+            text-align: center;
 
         .social-heading {
             text-transform: uppercase;
+            text-align: center;
         }
 
         .social-icons {
@@ -124,6 +124,7 @@
                 width: 40px;
                 height: 40px;
                 padding: 5px 0px;
+                text-align: center;
             }
             :hover {
                 background-color: $mainColor;

@@ -1,5 +1,5 @@
-<template lang="en">
-    <div>
+<template>
+    <div dir="auto">
         The ID passed in is {{$route.params.id}}
     </div>
 </template>

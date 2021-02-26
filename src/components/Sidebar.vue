@@ -1,8 +1,8 @@
 <template> 
-  <div>
-    <b-button v-b-toggle.sidebar class="sidebar-btn"></b-button>
+  <div dir="auto">
+    <b-button v-b-toggle.sidebar class="sidebar-btn" ></b-button>
   
-    <b-sidebar id="sidebar" no-header>
+    <b-sidebar id="sidebar" no-header >
           <div class="sidebar-top">
           <div class="logo">
             <router-link :to="{ name: 'home'}" class="side-link">
