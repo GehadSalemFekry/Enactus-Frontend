@@ -4,7 +4,7 @@ import axios from 'axios'
 
 
 Vue.use(Vuex)
-axios.defaults.baseURL = 'http://enactus-alexu.local/api'
+axios.defaults.baseURL = 'http://localhost:8000/api'
 
 
 export const store = new Vuex.Store({
