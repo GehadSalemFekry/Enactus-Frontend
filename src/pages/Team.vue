@@ -164,55 +164,6 @@
                   <template #title>
                     <div class='sector-card'>
                       <div class='sector-img'>
-                      <img src="../assets/img/team/presentation.png" /> 
-                      </div>
-                      <div class='sector-content'>
-                        <h5>{{ $t('team.vp-present-name')}}</h5>
-                        <p class="sector-vp">{{ $t('team.presentation')}}</p>
-                        <p>{{ $t('team.sector')}}</p>
-                      </div>
-                    </div>
-                  </template>
-
-                  <div class="container">
-                    <div class="row">
-
-                      <div class="col-md-6">
-                        <div class='member-card'>
-                          <div class='member-img'>
-                            <img src="../assets/img/team/presentation/HazemEmad.png" />
-                          </div>
-                          <div class='member-content'>
-                            <h5>{{ $t('team.mb1-present-name')}}</h5>
-                            <p class="sector-vp">{{ $t('team.presentation')}}</p>
-                            <p>{{ $t('team.tl')}}</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-6">
-                        <div class='member-card'>
-                          <div class='member-img'>
-                            <img src="../assets/img/team/presentation/SalmaAlaaEldin.png" />
-                          </div>
-                          <div class='member-content'>
-                            <h5>{{ $t('team.mb2-present-name')}}</h5>
-                            <p class="sector-vp">{{ $t('team.presentation')}}</p>
-                            <p>{{ $t('team.tl')}}</p>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-
-                </b-tab>
-
-                <b-tab>
-
-                  <template #title>
-                    <div class='sector-card'>
-                      <div class='sector-img'>
                         <img src="../assets/img/team/project-manger.png" />
                       </div>
                       <div class='sector-content'>
@@ -312,7 +263,56 @@
 
                 </b-tab>
 
+                <b-tab>
 
+                  <template #title>
+                    <div class='sector-card'>
+                      <div class='sector-img'>
+                      <img src="../assets/img/team/presentation.jpg" /> 
+                      </div>
+                      <div class='sector-content'>
+                        <h5>{{ $t('team.vp-present-name')}}</h5>
+                        <p class="sector-vp">{{ $t('team.vp')}}</p>
+                        <p>{{ $t('team.presentation')}}</p>
+                      </div>
+                    </div>
+                  </template>
+
+                  <div class="container">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class='member-card'>
+                          <div class='member-img'>
+                            <img src="../assets/img/team/presentation/HazemEmad.png" />
+                          </div>
+                          <div class='member-content'>
+                            <h5>{{ $t('team.mb1-present-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.presentation')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div class='member-card'>
+                          <div class='member-img'>
+                            <img src="../assets/img/team/presentation/SalmaAlaaEldin.png" />
+                          </div>
+                          <div class='member-content'>
+                            <h5>{{ $t('team.mb2-present-name')}}</h5>
+                            <p class="sector-vp">{{ $t('team.script')}}</p>
+                            <p>{{ $t('team.tl')}}</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </b-tab>
+
+                
                 <b-tab>
 
                   <template #title>
