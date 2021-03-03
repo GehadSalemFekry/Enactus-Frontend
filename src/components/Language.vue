@@ -36,6 +36,9 @@ export default {
   z-index: 99999999;
   cursor: pointer;
 }
+.lang a:hover{
+  color: #273036;
+}
 @media (max-width: 575.98px) {
   .lang {
     /* padding: 6px 12px; */
