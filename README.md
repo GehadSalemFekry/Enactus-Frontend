@@ -1,4 +1,6 @@
-# testapp
+# Enactus Alexandria website
+
+The project is build using HTML, CSS and Vue.js
 
 ## Project setup
 ```
